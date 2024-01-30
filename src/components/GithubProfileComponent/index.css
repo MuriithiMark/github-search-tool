@@ -1,0 +1,36 @@
+.github-profile {
+    width: 100%;
+    display: flex;
+justify-content: center;
+
+    .side-bar {
+        width: 50%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        text-align: center;
+
+        img {
+            width: 60%;
+            height: 60%;
+        }
+
+        .socials {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            a {
+                text-decoration: none;
+            }
+
+            a:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}

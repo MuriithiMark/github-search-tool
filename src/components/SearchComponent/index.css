@@ -1,0 +1,32 @@
+.search-component {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+
+
+    input,
+    button {
+        margin: 4% 0% 4% 0%;
+        height: 50px;
+    }
+
+    input {
+        width: 60%;
+        padding: 0% 2% 0% 2%;
+    }
+
+    button {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .search-component {
+        width: 500px;
+        align-self: center;
+    }
+
+    ;
+}
